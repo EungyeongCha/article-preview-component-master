@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+}
+
+.container .card .card-img {
+  background-image: url("../images/drawers.jpg");
+  background-size: 100% 100%;
+  width: 40%;
+  height: 300px;
+}
+
+.container .card .card-content {
+  padding: 30px;
+  width: 60%;
+  height: 300px;
+}
+
+.container .card .card-content .card-text {
+  font-size: 13px;
+  height: 200px;
+}
+
+.container .card .card-content .card-text h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.container .card .card-content .card-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .card-content .card-profile .profile-img {
+  background-image: url(../images/avatar-michelle.jpg);
+  width: 50px;
+  height: 50px;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+.container .card .card-content .card-profile .profile-txt {
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.container .card .card-content .card-profile .profile-txt .name {
+  font-weight: bold;
+  padding-right: 150px;
+}
+
+.container .card .card-content .card-profile .profile-btn button {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.container .card .card-content .card-profile .profile-btn button::after {
+  content: "";
+}
+/*# sourceMappingURL=style.css.map */

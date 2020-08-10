@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+
+    .card {
+        display: flex;
+        width: 700px;
+
+        .card-img {
+            background-image: url('../images/drawers.jpg');
+            background-size: 100% 100%;
+            width: 40%;
+            height: 300px;
+        }
+        .card-content {
+            padding: 30px;
+            width: 60%;
+            height: 300px;
+
+            .card-text {
+                font-size: 13px;  
+                height: 200px;
+
+                h3 {
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }   
+            }
+        .card-profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .profile-img {
+                background-image: url(../images/avatar-michelle.jpg);
+                width: 50px;
+                height: 50px;
+                background-size: 100% 100%;
+                border-radius: 50%;
+            }
+            .profile-txt {
+                display: inline-block;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 13px;
+                .name {
+                    font-weight: bold;
+                    padding-right: 150px;
+                }  
+            }
+            .profile-btn {
+                button {
+                    border-radius: 50%;
+                    border: none;
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                }
+                button::after {
+                    content: "";
+                }
+            }
+        }
+        }
+    }
+}
